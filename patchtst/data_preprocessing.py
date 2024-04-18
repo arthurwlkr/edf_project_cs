@@ -3,14 +3,14 @@ import numpy as np
 import pandas as pd
 
 
-#################################
-# Data preprocessing for PatchTST
-#################################
+###################################
+# Data preprocessing for PatchTST #
+###################################
 
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--n", type=int, default=100, help="number of clients")
-parser.add_argument("--f", type=str, default='data.csv', help="file name")
+parser.add_argument("--f", type=str, default='data_PatchTST.csv', help="file name")
 parser.add_argument("--s", type=int, default=0, help="random seed")
 args = parser.parse_args()
 
